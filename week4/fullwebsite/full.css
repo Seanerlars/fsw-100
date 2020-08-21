@@ -1,0 +1,115 @@
+.h31 {position: fixed;
+    margin-left:50px;
+    font-size: 60px;
+color:cyan;}
+
+.h32 {position: fixed;
+    margin-left:50px;
+    margin-top:150px;
+    font-size: 60px;
+color:cyan;}
+
+.h33 {position: fixed;
+    margin-left:50px;
+    margin-top: 330px;
+    font-size: 60px;
+color:cyan;}
+
+h1 {text-align:center;
+    position:relative;
+    color: cyan;
+border: solid rgb(233, 52, 20);
+font-size: 200px;
+z-index:-1;}
+
+#img1 {position: absolute;
+    display:block;
+    width: 1100px;
+height:700px;
+margin-left:450px;
+z-index: -1;}
+
+#img2 {position:absolute;
+    width:300px;
+    Height:200px;
+margin-top: 175px;
+margin-left:1450px;
+border: solid black;}
+
+.p2 {position:absolute;
+    display: inline-block;
+margin-left: 350px;
+margin-top:175px;
+border: 2px solid black;
+padding: 50px;
+}
+
+#paddle1 {position: absolute;
+        margin-left:350px;
+    margin-top:100px;
+}
+
+#date {position: absolute;
+    color:lightblue;
+    margin-left:350px;
+margin-top:140px;}
+
+#paddle2 {position:absolute;
+margin-top: 500px;
+margin-left: 350px;}
+
+#kittenid {position: absolute;
+    color: lightblue;
+        margin-left: 350px;
+        margin-top: 540px;}
+
+#img3 {position:absolute;
+    width: 300px;
+    height: 200px;
+    margin-top: 620px;
+margin-left: 1400px;
+border:solid black;}
+
+#p3 {position:absolute;
+    display:inline-block;
+    margin-left: 325px;
+    margin-top: 575px;
+    border: 2px solid black;
+    padding: 50px;}
+
+#paddle3 {position:absolute;
+    margin-left: 350px;
+    margin-top: 950px;
+}
+#boxid {position: absolute;
+    color: lightblue;
+    margin-left: 350px;
+    margin-top: 1000px;
+    }
+#img4 {position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-top: 1045px;
+margin-left:1450px;
+border: solid black;}
+
+#p4 {position: absolute;
+    display:inline-block;
+    margin-left:350px;
+    margin-top: 1035px;
+    border:2px solid black;
+    padding: 50px;}
+
+body {background: slategray;}
+
+.div1 {margin-top:800px;}
+
+.table {position: absolute;
+    width: 400px;
+    height: 300px;
+        margin-top:1300px;
+        margin-left:700px;
+        border: solid black;
+    border-collapse: collapse;}
+th, td {border-bottom: 1px solid black;}
+        
