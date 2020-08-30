@@ -1,0 +1,109 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+grid-gap:10px}
+
+.grid-container2 {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+grid-gap:10px}
+
+.grid-item1 {grid-column-start: 1;
+    grid-column-end: 3;
+color: black;
+border: solid forestgreen 100px;
+background:forestgreen;
+font-size: 50px;
+border-radius: 10px 10px 10px 10px;
+
+}
+
+.grid-item2 {grid-column-start: 3;
+    grid-column-end:5;
+color: black;
+border: solid red 100px;
+background: red;
+font-size: 50px;
+border-radius: 10px 10px 10px 10px;
+
+}
+.grid-item3 {grid-column-start: 1;
+grid-column-end:2;
+color: black;
+border: solid yellow 100px;
+background: yellow;
+font-size: 50px;
+border-radius: 10px 10px 10px 10px;
+}
+.grid-item4 {grid-column-start: 2;
+grid-column-end:5;
+color: black;
+border: solid blue 100px;
+background: blue;
+font-size: 50px;
+border-radius: 10px 10px 10px 10px;}
+
+.grid-item5 {grid-column-start: 1;
+grid-column-end:5;
+color: black;
+border: solid pink 100px;
+background: pink;
+font-size: 50px;
+border-radius: 10px 10px 10px 10px;
+}
+
+.grid-item6 {grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end:3;
+color: black;
+border: solid forestgreen 100px;
+background:forestgreen;
+font-size: 50px;
+border-radius: 10px 10px 10px 10px;
+
+}
+
+.grid-item7 {grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start: 3;
+    grid-row-end: 6;
+color: black;
+border: solid red 100px;
+background: red;
+font-size: 50px;
+border-radius: 10px 10px 10px 10px;
+
+}
+.grid-item8 {grid-column-start: 3;
+grid-column-end:5;
+grid-row-start:3;
+grid-row-end:5;
+color: black;
+border: solid yellow 100px;
+background: yellow;
+font-size: 50px;
+border-radius: 10px 10px 10px 10px;
+}
+.grid-item9 {grid-column-start: 3;
+grid-column-end:4;
+grid-row-start:5;
+grid-row-end: 6;
+color: black;
+border: solid blue 100px;
+background: blue;
+font-size: 50px;
+border-radius: 10px 10px 10px 10px;}
+
+.grid-item10 {grid-column-start: 4;
+grid-column-end:5;
+grid-row-start:5;
+grid-row-end: 6;
+color: black;
+border: solid pink 100px;
+background: pink;
+font-size: 50px;
+border-radius: 10px 10px 10px 10px;
+}
