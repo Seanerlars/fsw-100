@@ -1,0 +1,86 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+grid-gap:8px}
+    
+
+    .grid-item1 {grid-column-start: 1;
+        grid-column-end: 3;
+        height: 200px;
+    border: solid red 4px;
+    background: black;  
+    transition-duration: 500ms; 
+    }
+.grid-item1:hover{background-color:blue;
+                border: solid purple 4px;
+            }
+
+
+.grid-item2 {grid-column-start: 3;
+        grid-column-end:6;
+        height: 200px;
+    color: #EE2E84;
+    background: grey;
+    transition-duration: 500ms; 
+}
+.grid-item2:hover {background-color: purple;
+            border-radius: 25px;
+        }
+
+
+.grid-item3 {grid-column-start: 1;
+    grid-column-end:6;
+    height: 200px;
+color: black;
+background: black;
+transition-duration:1000ms;
+}
+
+.grid-item3:hover {background-color: firebrick;
+    padding:10px;
+    border: solid black 4px;
+
+}
+
+.grid-item4 {grid-column-start: 1;
+    grid-column-end:4;
+    height: 200px;
+color: black;
+background: grey;
+transition-duration: 1000ms;}
+
+.grid-item4:hover {
+    background-color: sandybrown;
+    border-radius: 25px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.grid-item5 {grid-column-start: 4;
+    grid-column-end:6;
+    height: 200px;
+    color: black;
+    background: grey;
+    transition-duration: 1000ms;
+}
+
+.grid-item5:hover {
+    background-color: coral;
+    grid-column-start:4;
+    grid-column-end:6;
+    border: solid black 5px; }
+
+.grid-item6 { grid-column-start: 1;
+    grid-column-end: 6;
+    height: 200px;
+    color: black;
+    background: black;
+transition-duration: 2s;}
+
+.grid-item6:hover {background-color: paleturquoise;
+                border-radius: 25px;
+                grid-column: 3/5;
+                border: solid purple 5px;
+            }
