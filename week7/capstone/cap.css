@@ -1,8 +1,8 @@
 
-@media screen and (min-width: 1000px)  {
+@media screen and (min-width: 1367px)  {
 
-    * {
-        margin: 0;
+    body {
+        margin:0;
         padding: 0;
         font-family: sans-serif;
         font-weight: lighter;
@@ -50,7 +50,7 @@
         height: 150px;
     }
 #h3 {font-family: Georgia, 'Times New Roman', Times, serif;
-font-size:100px;}
+font-size:70px;}
 
     
     .main {
@@ -63,7 +63,7 @@ font-size:100px;}
         align-items: start;
         background-color: rgb(2, 90, 49);}
     
-.img1 {margin-left:300px;
+.img1 {margin-left:250px;
     margin-right:auto;
 box-shadow:  8px white inset;}
 
@@ -72,8 +72,10 @@ h2 {display: relative;
     margin-right:auto;
 padding:40px;}
 
-tr, th, td {padding: 25px;   
+tr, th, td {padding: 25px;  
         }
+th,td, tr {border: 1px solid black;
+}
 
 
 th {border-bottom: 1px solid black;}
@@ -81,7 +83,8 @@ th {border-bottom: 1px solid black;}
 
 
 #table {margin-left:auto;
-        margin-right:auto;}
+        margin-right:auto;
+        border-collapse: collapse;}
 
 
 
@@ -107,11 +110,12 @@ ul {padding: 70px;}
  }
 
  
- @media screen and (max-width:700px) and (min-width:300px){
+ @media screen and (max-width:700px) and (min-width:10px){
 
-    * {
+    body {
         margin: 0;
         padding: 0;
+        width: 200px;
         font-family: sans-serif;
         font-weight: lighter;
     }
@@ -159,8 +163,8 @@ font-size:40px;}
         background-color: rgb(2, 90, 49);}
     
 .img1 {display: relative;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left:200px;;
+
 box-shadow:  8px white inset;
 height:200px;
 width:200px;}
@@ -180,7 +184,9 @@ th {border-bottom: 1px solid black;}
 
 
 #table {height: 50px;
-        width:50px;}
+        width:50px;
+        margin-left:200px;
+        border-collapse: collapse;}
 
 
 
@@ -204,4 +210,116 @@ th {border-bottom: 1px solid black;}
 ul {padding: 30px;}
     
  }
+
+
+
+ @media screen and (min-width: 700px) and (max-width:1366px) {
+
+    body {
+        margin:0;
+        padding: 0;
+        font-family: sans-serif;
+        font-weight: lighter;
+    }
     
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    nav {
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+   
+        height: 40px;
+        transition-duration:1s;
+        background-color: #222222;
+    }
+
+    nav:hover {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+        height: 40px;
+        font-size:30px;
+        background-color: #222222;
+    }
+    
+    
+    header {
+        grid-column: 1 / -1;
+        grid-row: 2 / 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(116, 14, 82);
+        height: 100px;
+    }
+#h3 {font-family: Georgia, 'Times New Roman', Times, serif;
+font-size:30px;}
+
+    
+    .main {
+        grid-column: 1 / -1;
+        grid-row: 3 / 4;
+        flex-direction: column;
+        height: 2000px;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        background-color: rgb(2, 90, 49);}
+    
+.img1 {margin-left:300px;
+    margin-right:auto;
+box-shadow:  8px white inset;
+height: 500px;
+width:600px;}
+
+h2 {display: relative;
+    margin-left:100px;
+padding:40px;
+font-size:18px;}
+
+tr, th, td {padding: 25px; 
+    height: 115px;  
+        }
+
+
+th {border-bottom: 1px solid black;}
+
+
+
+#table {margin-left:auto;
+        margin-right:auto;
+        border-collapse: collapse;}
+
+
+
+    
+    footer {
+        grid-column: 1 / -1;
+        grid-row: 6;
+        height: 500px;
+        display:flex;
+        justify-content: space-evenly;
+        background-color: #222222;
+        color: whitesmoke;
+        padding: 5px 0;
+    }
+#foot1 {padding: 70px;}
+
+#foot2 {padding: 70px;}
+
+#foot3 {padding: 70px;}
+ 
+ul {padding: 70px;}
+    
+ }
